@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Condensed&family=Sofia+Sans&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS*/
+
+body {
+	font-family: "Sofia Sans", sans-serif;
+	color: #363441;
+	font-size: 1.2em;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #D7DDED;
+}
+header {
+	background-color: #66729E;
+	padding: 2%;
+	text-align: center;
+	font-family: "Oswald";
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 0.06em;
+	color: #363441;
+}
+nav {
+	margin: 0 auto;
+	background-color: #9796A8;
+	text-align: center;
+	padding: 2%;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 2%;
+}
+nav ul li a:link {
+	font-family: "Roboto Condensed";
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 0.08em;
+}
+a {
+	color: #363441;
+}
+a:hover {
+	color: white;
+}
+#upcoming {
+	width: 80%;
+	margin: 2% auto;
+	background-color: #cdc9d6;
+	overflow: hidden;
+	padding: 2%;
+}
+.upcoming-text {
+	float: left;
+	width: 56%;
+	margin-left: 2%;
+	letter-spacing: 0.06em;
+	line-height: 150%;
+}
+.upcoming-img {
+	float: left;
+	width: 40%;
+}
+#upcoming h2 {
+	font-style: oblique;
+	font-variant: small-caps;
+}
+#main {
+	width: 52%;
+	float: left;
+	margin: 2%;
+	padding: 2%;
+}
+#information {
+	width: 32%;
+	float: left;
+	background-color: #cdc9d6;
+	margin: 2%;
+	padding: 2%;
+}
+figure {
+	background-color: #9796A8;
+	padding-bottom: 1%;
+	margin: 0 auto;
+	width: 85%;
+}
+figcaption {
+	padding-left: 2%;
+}
+img {
+	max-width: 100%;
+}
+p {
+	margin: 2.5% 0;
+}
+article>p {
+	line-height: 140%;
+}
+h2 {
+	margin-bottom: 1.5%;
+	font-family: "Roboto Condensed";
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 0.08em;
+}
+blockquote {
+	font-size: 1em;
+	font-family: "Sofia Sans", sans-serif;
+	color: #363441;
+	line-height: 1.5em;
+	margin: 0 0 4% 6%;
+	background-color: #cdc9d6;
+	border-left: 10px solid #66729E;
+	padding: 2%;
+	display: inline-block;
+}
+blockquote:before {
+	vertical-align: -0.35em;
+	line-height: 0;
+	font-size: 4em;
+	content: "\201C";
+}
+footer {
+	clear: left;
+	background-color: #9796A8;
+	color: #363441;
+	padding: 1%;
+	text-align: right;
+}
+.footer-text {
+	position: relative;
+	right: 2%;
+}
+table {
+	background-color: #9796A8;
+	width: 95%;
+	padding: 1%;
+	margin: 2% auto;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+tr {
+	background-color: #cdc9d6;
+	font-size: 1em;
+	font-family: "Sofia Sans", sans-serif;
+	color: #363441;
+	text-align: center;
+}
+td,th {
+	padding: 1%;
+}
+.characters {
+	background-color: #9796A8;
+	padding: 1%;
+	margin-bottom: 4%;
+}
+.characters li {
+	background-color: #cdc9d6;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+}
+.sources {
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+.sources li {
+	margin: 3%;
+}
